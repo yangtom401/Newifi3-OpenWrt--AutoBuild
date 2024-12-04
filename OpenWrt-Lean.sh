@@ -19,9 +19,9 @@ cat feeds.conf.default
 ./scripts/feeds update -a && ./scripts/feeds install -a
 
 # 删除软件包
-#rm -rf ./package/lean/UnblockNeteaseMusic
-#rm -rf ./package/lean/UnblockNeteaseMusic-Go
-#rm -rf ./package/lean/luci-app-unblockmusic
+rm -rf ./package/lean/UnblockNeteaseMusic
+rm -rf ./package/lean/UnblockNeteaseMusic-Go
+rm -rf ./package/lean/luci-app-unblockmusic
 
 # 添加第三方软件包
 #git clone https://github.com/gbaoye/openwrt-packages package/openwrt-packages
@@ -29,7 +29,7 @@ cat feeds.conf.default
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 #git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 #git clone https://github.com/garypang13/luci-theme-edge package/luci-theme-edge
-git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
+#git clone https://github.com/kongfl888/luci-app-adguardhome package/luci-app-adguardhome
 #git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
 #git clone https://github.com/hubbylei/luci-app-clash package/luci-app-clash
 #git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
